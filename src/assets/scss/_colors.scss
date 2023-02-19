@@ -1,0 +1,29 @@
+@import url('variables');
+
+$colors: (
+  primary: $primary,
+  light-primary: $light-primary,
+  dark-primary: $dark-primary,
+  secondary: $secondary,
+  light-secondary: $light-secondary,
+  dark-secondary: $dark-secondary,
+  "white": $white,
+);
+
+@each $name, $value in $colors {
+  .color-#{$name} {
+    color: $value;
+  }
+
+  .bg-color-#{$name} {
+    background-color: $value;
+  }
+
+  .br-color-#{$name} {
+    border-color: $value;
+  }
+
+  .hover-bg-color-#{$name}:hover {
+    background-color: $value;
+  }
+}
