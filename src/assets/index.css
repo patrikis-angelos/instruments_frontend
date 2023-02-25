@@ -42,8 +42,8 @@ blockquote, q {
   box-sizing: border-box;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote::before, blockquote::after,
+q::before, q::after {
   content: "";
   content: none;
 }
@@ -1141,19 +1141,19 @@ button {
 }
 
 .color-secondary {
-  color: rgb(91, 192, 66);
+  color: #717171;
 }
 
 .bg-color-secondary {
-  background-color: rgb(91, 192, 66);
+  background-color: #717171;
 }
 
 .br-color-secondary {
-  border-color: rgb(91, 192, 66);
+  border-color: #717171;
 }
 
 .hover-bg-color-secondary:hover {
-  background-color: rgb(91, 192, 66);
+  background-color: #717171;
 }
 
 .color-light-secondary {

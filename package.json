@@ -23,7 +23,9 @@
     "lint": "npx eslint .",
     "lint:fix": "npx eslint --fix .",
     "stylelint": "npx stylelint '**/*.scss'",
-    "stylelint:fix": "npx stylelint '**/*.scss' --fix"
+    "stylelint:fix": "npx stylelint '**/*.scss' --fix",
+    "sass": "sass ./src/assets/scss/index.scss ./src/assets/index.css",
+    "sass:watch": "sass --watch ./src/assets/scss/index.scss ./src/assets/index.css"
   },
   "eslintConfig": {
     "extends": [
