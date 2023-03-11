@@ -1,7 +1,9 @@
+import '../../assets/css/header.css';
+
 function Header() {
   return (
     <header>
-      <nav className="flex space-between bg-color-secondary">
+      <nav className="flex space-between bg-color-secondary color-white nav-font">
         <div>
           <div>Instrumentalist</div>
         </div>
