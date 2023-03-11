@@ -1,8 +1,12 @@
-.flex{
+.flex {
   display: flex;
 }
 
-.block{
+.flex-dir-col {
+  flex-direction: column;
+}
+
+.block {
   display: block;
 }
 
